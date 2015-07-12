@@ -1,0 +1,58 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#import "UIImage+image.h"
+#import "AFNetworking.h"
+#import "NSString+file.h"
+#import "MBProgressHUD+show.h"
+#import "Common.h"
+#import "UIBarButtonItem+creat.h"
+#import "UIButton+bg.h"
+#import "NSURLRequest+Url.h"
+#import "UserTool.h"
+#import "User.h"
+#import "LZAudioTool.h"
+#import "UIImageView+WebCache.h"
+#import "LPPopup.h"
+
+
+#define kBaseUrl @"http://202.117.77.156:8088/AMEI/"
+
+#define kPassWord @"Password"
+
+#define kPhone @"UserID"
+
+#define kGetFriendsPath @"GetFriends"
+
+#define kDeleteFriendsPath @"DeleteFriends"
+
+#define kAddFriendsPath @"AddFriends"
+
+#define kRequestPush @"requestPush"
+
+#define kDeviceToken @"DeviceToken"
+
+#define kSharkPath @"Shark"
+
+#define kRegistUserPath @"RegistUser"
+
+#define kUpdateUserPath @"UpdateUser"
+
+#define kGetMyInfoPath @"GetMyInfo"
+
+
+#define kUploadImagePath @"UploadImage"
